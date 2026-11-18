@@ -18,7 +18,7 @@ console.log(
 // Exercício 3
 
 console.log("5" + 2);
-//O + junta quando há texto
+// Dá "52": o + junta (concatena) quando há texto
 console.log("5" - 2);
 // Dá 3 porque nesse caso o javascript converte sozinho o 5 em um number
 console.log("5" === 5);
@@ -26,15 +26,14 @@ console.log("5" === 5);
 console.log(5 == "5");
 //verdadeiro porque são valores iguais mas de tipos de dados diferentes
 
-
 // Exercício 4
 
 const valores = [0, "", "0", [], null];
 
 for (const valor of valores) {
   if (valor) {
-    console.log(`${JSON.stringify(valor)} é truthy`)
+    console.log(`${JSON.stringify(valor)} é truthy`);
   } else {
-    console.log(`${JSON.stringify(valor)} é falsy`)
+    console.log(`${JSON.stringify(valor)} é falsy`);
   }
 }
